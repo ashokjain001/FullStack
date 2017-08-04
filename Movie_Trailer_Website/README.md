@@ -5,8 +5,10 @@ It creates a movie website which displays poster image and trailer of the movie.
 The Folder contains two modules and a starter code provided by Udacity, Media module contains class
 and entertainment_center contains object which instantiates the Media module.
 
-##Download
+## Download
 
 You can clone the repository and run entertainment_center.py in your terminal.
-ex. '''python entertainment_center.py'''
+ex. '''
+python entertainment_center.py 
+'''
 to execute the code and it should open a webpage with movie information.
