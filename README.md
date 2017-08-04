@@ -1,2 +1,2 @@
 # PythonProjects
-This repository will contain my python projects as I learn to code.
+This repository will contain python projects and programs as I learn to code.
