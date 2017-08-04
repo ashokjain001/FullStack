@@ -1,11 +1,5 @@
 #!/usr/bin/env python
 import media
-import os  # We need this module
-
-# Get path of the current dir, this will help to find the path where entertainment_center.py is saved and execute this file:
-CURRENT_DIR = os.path.dirname(__file__)
-file_path = os.path.join(CURRENT_DIR, 'entertainment_center.py')
-print file_path, CURRENT_DIR
 
 from PythonProjectsNew.ud036_StarterCode.fresh_tomatoes import open_movies_page
 
@@ -29,4 +23,5 @@ movies = [toystory,terminator,backtofuture,schoolofrock]
 
 
 open_movies_page(movies) # calling open_movies_page function of the Fresh_tomatoes module
+
 
