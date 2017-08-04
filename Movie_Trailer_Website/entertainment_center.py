@@ -3,8 +3,8 @@ import media
 import os  # We need this module
 
 # Get path of the current dir, this will help to find the path where this file is saved and execute:
-#CURRENT_DIR = os.path.dirname(__file__)
-#file_path = os.path.join(CURRENT_DIR, 'entertainment_center.py')
+CURRENT_DIR = os.path.dirname(__file__)
+file_path = os.path.join(CURRENT_DIR, 'entertainment_center.py')
 #print CURRENT_DIR, file_path
 
 from ud036_StarterCode.fresh_tomatoes import open_movies_page
