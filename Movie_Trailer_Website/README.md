@@ -9,7 +9,7 @@ and entertainment_center contains object which instantiates the Media module.
 
 You can clone this repository and run entertainment_center.py in your local terminal.
 ex.
-```python
+```
 python entertainment_center.py
 ```
 to execute the code and it should open a webpage with movie information.
