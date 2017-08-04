@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 import media
+import os  # We need this module
 
-from PythonProjectsNew.ud036_StarterCode.fresh_tomatoes import open_movies_page
+# Get path of the current dir, this will help to find the path where this file is saved and execute:
+#CURRENT_DIR = os.path.dirname(__file__)
+#file_path = os.path.join(CURRENT_DIR, 'entertainment_center.py')
+#print CURRENT_DIR, file_path
+
+from ud036_StarterCode.fresh_tomatoes import open_movies_page
 
 toystory = media.Movie("Toy Story","story of a boy and his toys that comes to life",
                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
