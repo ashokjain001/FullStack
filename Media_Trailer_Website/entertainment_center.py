@@ -1,7 +1,13 @@
 #!/usr/bin/env python
 import media
-#import ud036_StarterCode.fresh_tomatoes as ft #  import fresh tomatoes
-from ud036_StarterCode.fresh_tomatoes import open_movies_page # from fresh_tomatoes module, import open_moviespage function
+import os  # We need this module
+
+# Get path of the current dir, this will help to find the path where entertainment_center.py is saved and execute this file:
+CURRENT_DIR = os.path.dirname(__file__)
+file_path = os.path.join(CURRENT_DIR, 'entertainment_center.py')
+print file_path, CURRENT_DIR
+
+from PythonProjectsNew.ud036_StarterCode.fresh_tomatoes import open_movies_page
 
 toystory = media.Movie("Toy Story","story of a boy and his toys that comes to life",
                        "https://upload.wikimedia.org/wikipedia/en/1/13/Toy_Story.jpg",
@@ -21,14 +27,6 @@ schoolofrock = media.Movie("School of Rock","A story of sub music teacher",
 
 movies = [toystory,terminator,backtofuture,schoolofrock]
 
-#print movies
+
 open_movies_page(movies) # calling open_movies_page function of the Fresh_tomatoes module
-#print media.Movie.__doc__
-
-#print toystory.storyline
-#print toystory.show_trailer()
-#print toystory.show_poster()
-
-#print media.Movie.VALID_RATINGS
-
 
