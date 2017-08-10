@@ -9,8 +9,16 @@ and entertainment_center contains object which instantiates the Media module.
 
 You can clone this repository and run entertainment_center.py in your local terminal.
 ex.
+cloning the git repository-
+```
+git clone https://github.com/ashokjain001/FullStack.git --recursive
+```
+
+executing the Movie Trailer Website
+
 ```
 python entertainment_center.py
 ```
+
 to execute the code and it should open a webpage with movie information.
 
